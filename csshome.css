@@ -1,0 +1,139 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+.header-middle{
+    text-align: right;
+    color: black; 
+    font-family: 'Courier New', Courier, monospace;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #ffffff;
+    padding: 0 200px 0 150px;
+    border-bottom: 1px solid #dadada;
+  }
+  
+.logo {
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    width: 49;
+    height: 30;
+  }
+.header-middle {
+    display: flex;
+    gap: 45px;
+  }
+.link {
+    width: 261;
+    height: 28;
+    top: 26px;
+    left: 969px;
+    color: #2D2D2D;
+}
+.link:hover {
+    opacity: 0.6;
+}
+  
+.header-right {
+    display: flex;
+    gap: 100px;
+}
+
+
+.introduce {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+.name-banner{
+    width: 557;
+    height: 30;
+}
+.name-introduce {
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+   letter-spacing: 0%;
+ }
+.hello-banner{
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    width: 557;
+    height: 27;
+
+}
+.image-banner {
+    border-radius: 25px;
+    width: 495px;
+    height: 424px;
+    border-radius: 5px;
+}
+
+.categories {
+    display: flex;
+    justify-content:space-between;
+    gap: 75px;
+} 
+.category {
+    text-align: center;
+} 
+.category img {
+    width:130px;
+    height: 130px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.category p {
+    font-family: Epilogue;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.category h2{
+    
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 249.89915466308594;
+    height: 42;
+}
+.card img {
+    width: 215;
+    height: 215;
+}
+
+
+  
+
+
+
+  
+  
+  
+ 
