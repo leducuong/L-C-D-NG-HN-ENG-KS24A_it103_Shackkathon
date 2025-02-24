@@ -127,7 +127,31 @@ body {
     width: 215;
     height: 215;
 }
-
+@media (max-width: 1200px) {
+    .header, .content, .footer {
+        flex-wrap: wrap;
+    }
+    .header div {
+        flex: 100%;
+    }
+    .main {
+        flex: 100%;
+    }
+    .content div {
+        flex: 48%;
+    }
+    .footer div {
+        flex: 48%;
+    }
+}
+@media (max-width: 768px) {
+    .header, .content, .footer {
+        flex-direction: column;
+    }
+    .header div, .content div, .footer div {
+        flex: 100%;
+    }
+}
 
   
 
